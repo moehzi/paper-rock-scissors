@@ -249,7 +249,6 @@ li.active p {
 	background-color: #979797;
 	border-radius: 30px;
 	transition: all ease-out 0.1s;
-
 }
 
 .winStatus {
@@ -299,7 +298,6 @@ li.active p {
 	border-radius: 30px;
 }
 
-.suitContainer:hover {}
 
 @media (max-width: 767.98px) {
 	li.active p {
@@ -370,7 +368,7 @@ li.active p {
 
 	.suit-choice,
 	.suit-choice-com {
-		width: 80px;
+		width: 50%;
 	}
 
 	.winStatus {
@@ -386,4 +384,13 @@ li.active p {
 		font-size: 2rem;
 	}
 
+	.selectedBg {
+		padding: 0.5rem 1rem;
+		height: 15vh;
+	}
+
+	.suitContainerHover:hover {
+		padding: 0.25rem 0.5rem;
+		height: 15vh;
+	}
 }
