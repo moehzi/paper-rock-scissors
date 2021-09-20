@@ -393,4 +393,8 @@ li.active p {
 		padding: 0.25rem 0.5rem;
 		height: 15vh;
 	}
+
+	.refresh img {
+		width: 50px;
+	}
 }
